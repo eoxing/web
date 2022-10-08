@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개발자 지원서 만들기</title>
+</head>
+<body>
+    <h1>프런트엔드 개발자 지원서</h1><br>
+    <h4>html, css, javascript를 다룰 줄 압니다.</h4>
+    <hr>
+    <form>
+        <h3>개인정보</h3>
+        <ul>
+            <li>
+                <label for="name">이름</label>
+                <input type="text" id="name" placeholder="공백 없이 입력하세요">
+            </li>
+            <li>
+                <label for="phone">연락처</label>
+                <input type="tel" id="phone">
+            </li>
+            <li>
+                <label for="email">이메일</label>
+                <input type="email" id="email">
+            </li>
+        </ul>
+        <h3>지원 분야</h3>
+        <ul>
+            <li>
+                <label><input type="radio" name="major">웹 퍼블리싱</label>
+            </li>
+            <li>
+                <label><input type="radio" name="major">웹 어플리케이션 개발</label>
+            </li>
+            <li>
+                <label><input type="radio" name="major">개발 환경 개선</label>
+            </li>
+        </ul>
+        <h3>지원동기</h3>
+        <textarea cols="50" rows="5" maxlength="60" placeholder="지원 동기를 간략하게 써주세요"></textarea>
+        <br>
+        <button type="button">제출</button>
+        <button type="button">다시 쓰기</button>
+    </form>
+</body>
+</html>
