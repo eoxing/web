@@ -1,0 +1,23 @@
+h1{
+    color:hotpink;
+    border-bottom: purple 10px dotted;
+}
+
+h3{
+    color:gray;
+}
+
+ul{
+    height: 150px;
+    background-color: #eeeeee;
+    border: 5px solid purple;
+}
+
+
+.pic{
+    width: 20%;
+    height: 20%;
+    border-color:black;
+    border:2px outset black;
+    border-radius: 10px;
+}
